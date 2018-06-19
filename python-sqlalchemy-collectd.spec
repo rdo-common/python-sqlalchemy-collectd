@@ -9,7 +9,7 @@
 
 Name:           python-%{pypi_name}
 Version:        0.0.3
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Send database connection pool stats to collectd
 
 License:        MIT
@@ -114,5 +114,8 @@ rm -rf %{pypi_name}.egg-info
 %endif
 
 %changelog
+* Tue Jun 19 2018 Miro Hrončok <mhroncok@redhat.com> - 0.0.3-2
+- Rebuilt for Python 3.7
+
 * Wed Feb 14 2018 Matthias Runge <mrunge@redhat.com> - 0.0.3-1
 - Initial package (rhbz#1564206)
