@@ -9,7 +9,7 @@
 
 Name:           python-%{pypi_name}
 Version:        0.0.3
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        Send database connection pool stats to collectd
 
 License:        MIT
@@ -114,6 +114,9 @@ rm -rf %{pypi_name}.egg-info
 %endif
 
 %changelog
+* Sat Jul 14 2018 Fedora Release Engineering <releng@fedoraproject.org> - 0.0.3-3
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_29_Mass_Rebuild
+
 * Tue Jun 19 2018 Miro Hrončok <mhroncok@redhat.com> - 0.0.3-2
 - Rebuilt for Python 3.7
 
