@@ -13,7 +13,7 @@
 
 Name:           python-%{pypi_name}
 Version:        0.0.3
-Release:        4%{?dist}
+Release:        5%{?dist}
 Summary:        Send database connection pool stats to collectd
 
 License:        MIT
@@ -131,6 +131,9 @@ rm -rf %{pypi_name}.egg-info
 %endif
 
 %changelog
+* Sat Feb 02 2019 Fedora Release Engineering <releng@fedoraproject.org> - 0.0.3-5
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_30_Mass_Rebuild
+
 * Wed Oct 10 2018 Matthias Runge <mrunge@redhat.com> - 0.0.3-4
 - drop python2 for Fedora > 29
 - add collectd-python as dependency
