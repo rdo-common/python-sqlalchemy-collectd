@@ -12,8 +12,8 @@
 %global with_checks 1
 
 Name:           python-%{pypi_name}
-Version:        0.0.3
-Release:        5%{?dist}
+Version:        0.0.4
+Release:        1%{?dist}
 Summary:        Send database connection pool stats to collectd
 
 License:        MIT
@@ -131,6 +131,9 @@ rm -rf %{pypi_name}.egg-info
 %endif
 
 %changelog
+* Wed May 29 2019 Mike Bayer <mbayer@redhat.com> - 0.0.4-1
+- upgrade to 0.0.4
+
 * Sat Feb 02 2019 Fedora Release Engineering <releng@fedoraproject.org> - 0.0.3-5
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_30_Mass_Rebuild
 
