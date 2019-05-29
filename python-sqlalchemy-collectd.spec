@@ -121,6 +121,7 @@ rm -rf %{pypi_name}.egg-info
 %doc README.rst LICENSE examples/
 %{python2_sitelib}/sqlalchemy_collectd
 %{python2_sitelib}/sqlalchemy_collectd-%{version}-py?.?.egg-info
+%{_bindir}/connmon
 %endif
 
 %if 0%{?with_python3}
@@ -128,6 +129,7 @@ rm -rf %{pypi_name}.egg-info
 %doc README.rst LICENSE examples/
 %{python3_sitelib}/sqlalchemy_collectd
 %{python3_sitelib}/sqlalchemy_collectd-%{version}-py?.?.egg-info
+%{_bindir}/connmon
 %endif
 
 %changelog
