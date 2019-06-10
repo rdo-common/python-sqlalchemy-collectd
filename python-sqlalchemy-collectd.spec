@@ -1,11 +1,11 @@
 # Created by pyp2rpm-3.2.3
 %global pypi_name sqlalchemy-collectd
 
-%if 0%{?fedora} > 0
+%if 0%{?fedora} > 0 || 0%{?rhel} > 7
 %global with_python3 1
 %endif
 
-%if (0%{?fedora} > 0) && (0%{?fedora} < 30)
+%if (0%{?fedora} > 0) && (0%{?fedora} < 30) || 0%{?rhel} == 7
 %global with_python2 1
 %endif
 
