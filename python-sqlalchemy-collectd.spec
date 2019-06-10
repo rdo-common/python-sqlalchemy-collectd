@@ -18,7 +18,7 @@ Summary:        Send database connection pool stats to collectd
 
 License:        MIT
 URL:            https://github.com/sqlalchemy/%{pypi_name}
-Source0:        https://github.com/sqlalchemy/%{pypi_name}/archive/v%{version}.tar.gz#/%{pypi_name}-%{version}.tar.gz
+Source0:        https://files.pythonhosted.org/packages/source/s/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
 BuildArch:      noarch
 
 %description
